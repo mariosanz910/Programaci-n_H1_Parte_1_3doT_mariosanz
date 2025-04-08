@@ -25,7 +25,7 @@ public class Principal {
             opcion = sc.nextInt();
             sc.nextLine();  
 
-            if (opcion == 1) {
+            if (opcion == 1) { // Cuestionario que obtiene los datos necesarios que se incluyen en el contruct del objeto cuando se cree
                 System.out.print("¿Qué tipo de animal quieres crear? (perro/gato): ");
                 String tipo = sc.nextLine();
 
@@ -94,7 +94,7 @@ public class Principal {
             		System.out.print("Introduce el número de chip del animal a buscar: ");
                     String chipBuscado = sc.nextLine();
 
-                    for (Animal animal : listaAnimales) {
+                    for (Animal animal : listaAnimales) { // Recorre el array en busca de que el método getChip de los animales retorne un valor igual al chip que se busca, si eso es así, muestra el animal usando el método
                         if ((animal.getChip()).equals(chipBuscado)) {  
                             animal.mostrar();  
                             break;
