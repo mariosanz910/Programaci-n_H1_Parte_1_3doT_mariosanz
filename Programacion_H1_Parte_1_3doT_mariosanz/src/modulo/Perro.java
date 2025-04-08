@@ -17,4 +17,8 @@ public class Perro extends Animal {
         System.out.println("Adoptado: " + adoptado);
         System.out.println("Tamaño: " + tamaño);
     }
+    
+    public String getChip() {
+        return chip;
+    }
 }

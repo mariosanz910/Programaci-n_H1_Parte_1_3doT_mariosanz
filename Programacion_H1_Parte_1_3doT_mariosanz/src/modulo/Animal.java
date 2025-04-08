@@ -16,4 +16,7 @@ public abstract class Animal {
     }
 
     public abstract void mostrar();
+    
+    public abstract String getChip();
+
 }

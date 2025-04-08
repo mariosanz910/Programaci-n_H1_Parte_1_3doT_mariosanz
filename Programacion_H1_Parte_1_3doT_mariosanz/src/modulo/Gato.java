@@ -17,4 +17,9 @@ public class Gato extends Animal {
         System.out.println("Adoptado: " + adoptado);
         System.out.println("Test de leucemia: " + testLeucemia);
     }
+    
+    public String getChip() {
+        return chip;
+    }
+
 }
